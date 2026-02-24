@@ -1,14 +1,14 @@
-🤟 Deep Learning Based Indian Sign Language (ISL) Translation System
+#🤟 Deep Learning Based Indian Sign Language (ISL) Translation System
 
 This project presents a Deep Learning–based Indian Sign Language (ISL) Translation System designed to bridge the communication gap between the hearing-impaired community and the general public. The system uses computer vision and deep learning techniques to recognize hand gestures in real time and translate them into readable text (and optionally speech output).
 
 Indian Sign Language is widely used across India, yet accessibility tools supporting ISL are limited. This project aims to create an efficient, scalable, and real-time solution that can recognize ISL alphabets, numbers, words, or predefined emergency gestures using a webcam feed.
 
-🔍 Project Overview
+##🔍 Project Overview
 
 The system captures live video input, preprocesses frames, detects hand regions, and feeds the processed images into a trained deep learning model. A Convolutional Neural Network (CNN) is used for feature extraction and classification of gestures. The predicted gesture is then mapped to corresponding text output.
 
-🚀 Key Features
+##🚀 Key Features
 
 Real-time gesture recognition using webcam
 
@@ -22,7 +22,7 @@ User-friendly interface
 
 Scalable architecture for adding more gestures
 
-🧠 Technologies Used
+##🧠 Technologies Used
 
 Python
 
@@ -34,7 +34,7 @@ NumPy
 
 Matplotlib
 
-⚙️ Working Pipeline
+##⚙️ Working Pipeline
 
 Capture video input from webcam
 
@@ -48,7 +48,7 @@ Predict gesture class
 
 Convert prediction into text output
 
-📂 Dataset
+##📂 Dataset
 
 The dataset contains labeled images of Indian Sign Language alphabets and gestures.
 
@@ -69,7 +69,7 @@ Kaggle ISL datasets
 
 Self-recorded gesture images
 
-🧠 Model Training
+##🧠 Model Training
 
 Data Augmentation applied
 
@@ -84,7 +84,7 @@ Evaluation Metrics: Accuracy
 Model is saved as:
 
 model.h5
-📊 Results
+##📊 Results
 
 Training Accuracy: ~98%
 
@@ -92,7 +92,7 @@ Validation Accuracy: ~92%
 
 Real-time performance with minimal latency
 
-🎯 Applications
+##🎯 Applications
 
 Assistive communication tool for the hearing and speech impaired
 
@@ -102,7 +102,7 @@ Public service integration (banks, hospitals, government offices)
 
 Smart accessibility systems
 
-📌 Future Enhancements
+##📌 Future Enhancements
 
 Sentence formation using NLP
 
@@ -116,7 +116,7 @@ Larger dataset training for higher accuracy
 
 This project demonstrates the practical implementation of deep learning in accessibility technology and promotes inclusive communication through AI-driven solutions.
 
-🤝 Contributing
+##🤝 Contributing
 
 Contributions are welcome! If you’d like to improve this project:
 
@@ -125,6 +125,10 @@ Fork the repository
 Create a new branch
 
 Commit your changes
+
+##📜 License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 Submit a Pull Request
 
