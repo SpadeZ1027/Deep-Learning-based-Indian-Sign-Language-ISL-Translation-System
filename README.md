@@ -1,8 +1,8 @@
-Deep Learning Based Indian Sign Language (ISL) Translation System
+🤟 Deep Learning Based Indian Sign Language (ISL) Translation System
 
 This project presents a Deep Learning–based Indian Sign Language (ISL) Translation System designed to bridge the communication gap between the hearing-impaired community and the general public. The system uses computer vision and deep learning techniques to recognize hand gestures in real time and translate them into readable text (and optionally speech output).
 
-Indian Sign Language is widely used across India, yet accessibility tools supporting ISL are limited. This project aims to create an efficient, scalable, and real-time solution that can recognize ISL alphabets, words, or predefined gestures using a webcam feed.
+Indian Sign Language is widely used across India, yet accessibility tools supporting ISL are limited. This project aims to create an efficient, scalable, and real-time solution that can recognize ISL alphabets, numbers, words, or predefined emergency gestures using a webcam feed.
 
 🔍 Project Overview
 
@@ -16,7 +16,7 @@ CNN-based deep learning model for accurate classification
 
 Image preprocessing (resizing, normalization, background removal)
 
-Support for ISL alphabets, numbers and emergency words
+Support for ISL alphabets, numbers, and emergency words
 
 User-friendly interface
 
@@ -50,17 +50,17 @@ Convert prediction into text output
 
 📂 Dataset
 
-The dataset contains labeled images of Indian Sign Language alphabets/gestures.
+The dataset contains labeled images of Indian Sign Language alphabets and gestures.
 
-Dataset structure:
-
+Dataset Structure:
 dataset/
 │
 ├── A/
 ├── B/
 ├── C/
-...
-
+├── 0/
+├── 1/
+└── emergency/
 You can use:
 
 Custom collected dataset
@@ -81,11 +81,12 @@ Optimizer: Adam
 
 Evaluation Metrics: Accuracy
 
-Model is saved as: model.h5
+Model is saved as:
 
+model.h5
 📊 Results
 
-Training Accuracy: ~98% 
+Training Accuracy: ~98%
 
 Validation Accuracy: ~92%
 
@@ -117,8 +118,7 @@ This project demonstrates the practical implementation of deep learning in acces
 
 🤝 Contributing
 
-Contributions are welcome!
-If you’d like to improve this project:
+Contributions are welcome! If you’d like to improve this project:
 
 Fork the repository
 
@@ -130,4 +130,4 @@ Submit a Pull Request
 
 📜 License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0) License.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
